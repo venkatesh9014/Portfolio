@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Venkatesh Kollathur | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="script.js"></script>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Venkatesh Kollathur</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+         <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<!-- HOME -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Hello, I'm <span>Venkatesh Kollathur</span></h1>
+        <p>Frontend Developer</p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+    <h2 class="about-title">About Me</h2>
+
+    <div class="about-image">
+        <img src="./images/venky.jpg" alt="Venkatesh">
+    </div>
+
+    <div class="about-content">
+        <p class="about-highlight">
+            I'm a Frontend Developer with a passion for creating dynamic web applications.
+            Currently, I am pursuing a Python Full Stack Training Program.
+        </p>
+
+        <p class="about-text">
+    I am Venkatesh Kollathur, a passionate web developer with a strong foundation in both
+    front-end and back-end technologies. Having recently completed my Master of Computer
+    Applications (MCA) from Siddharth Institute of Engineering and Technology with animpressive 85%, I have developed technical skills including HTML, CSS, JavaScript,
+    SQL and Python. I have hands-on experience through personal projects such as my
+    web-based Parking Space Reservation Management System, which streamlined parking
+    allocation, slot availability, and reservation management.
+
+    Currently, I am further honing my skills in Python Full Stack development, while
+    remaining adaptable, disciplined, and eager to contribute innovative solutions.
+    You can explore my  on <a href="www.linkedin.com/in/venkatesh-reddy-2b034132b" target="_blank">GitHub</a> 
+    or connect with me on 
+    <a href="" target="_blank">LinkedIn</a>.
+</p>
+
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <h3 class="SECTION">Parking Space Reservation Management System</h3>
+
+    <div class="project-box">
+
+        <div class="project-images">
+            <img src="images/demo.png" onclick="openImage(this.src)" alt="Project">
+            <img src="images/admin.png" onclick="openImage(this.src)" alt="Project">
+            <img src="./images/owner dashboard.png" onclick="openImage(this.src)" alt="Project">
+            <img src="./images/Add category.png" onclick="openImage(this.src)" alt="Project">
+            <img src="./images/Manage category .png" onclick="openImage(this.src)" alt="Project">
+            <img src="./images/manage in vehicle page.png" onclick="openImage(this.src)" alt="Project">
+            <img src="./images/reports page.png" onclick="openImage(this.src)" alt="Project">
+             <img src="./images/search vehicle page.png" onclick="openImage(this.src)" alt="Project">
+
+        </div>
+        <p class="project-text">
+            A web-based Parking Space Reservation Management System developed to simplify and automate the parking process by allowing users to 
+            reserve parking slots in advance through an online platform. The system provides real-time information about parking slot availability,
+            enabling drivers to quickly find and book suitable parking spaces without wasting time searching manually.
+            This application includes both user and admin modules. Users can register, log in, view available parking slots, reserve a slot, and 
+            receive booking confirmation. The admin can manage parking slots, monitor vehicle entries and exits, generate reports, and maintain parking records.
+            The system also helps in reducing traffic congestion caused by vehicles searching for parking spaces and improves the overall parking management efficiency.
+        </p>
+    </div>
+</section>
+<!-- EDUCATION -->
+<section class="education-section" id="education">
+    <h2>Education</h2>
+
+    <div class="education-container">
+        <div class="edu-card">
+            <i class="fa-solid fa-graduation-cap edu-icon"></i>
+            <h3>MCA</h3>
+            <p>Siddharth Institute of Engineering and Technology </p>
+            <span>85%</span>
+        </div>
+
+        <div class="edu-card">
+             <i class="fa-solid fa-building-columns edu-icon"></i>
+            <h3>B.Sc</h3>
+            <p>Sri Vidya Degree College</p>
+            <span>73%</span>
+        </div>
+
+        <div class="edu-card">
+            <i class="fa-solid fa-school edu-icon"></i>
+            <h3>Intermediate</h3>
+            <p>Sri Sai Jyothi Junior College</p>
+            <span>63%</span>
+        </div>
+
+        <div class="edu-card">
+            <i class="fa-solid fa-book edu-icon"></i>
+            <h3>SSC</h3>
+            <p>Sri Saraswathi Vignana Mandir School</p>
+            <span>82%</span>
+        </div>
+    </div>
+</section>
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+    <h2 class="skills-title">Skills</h2>
+
+    <div class="skills-wrapper">
+
+        <!-- Frontend -->
+        <div class="skills-column">
+            <h3>Frontend</h3>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                <div class="bar"><div class="fill w90"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                <div class="bar"><div class="fill w85"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                <div class="bar"><div class="fill w70"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                <div class="bar"><div class="fill w80"></div></div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skills-column">
+            <h3>Backend</h3>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <div class="bar"><div class="fill w80"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <span><i class="fa-solid fa-database"></i>SQL</span>
+                <div class="bar"><div class="fill w75"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <span><i class="fa-solid fa-code"></i> Django</span>
+                <div class="bar"><div class="fill w65"></div></div>
+            </div>
+        </div>
+
+        <!-- Others -->
+        <div class="skills-column">
+            <h3>Others</h3>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-git-alt"></i> Git</span>
+                <div class="bar"><div class="fill w70"></div></div>
+            </div>
+
+            <div class="skill-bar">
+                <span><i class="fa-brands fa-github"></i> GitHub</span>
+                <div class="bar"><div class="fill w75"></div></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<!-- IMAGE POPUP -->
+<div id="imgPopup" class="img-popup" onclick="closeImage()">
+    <img id="popupImg">
+</div>
+</body>
+</html>
